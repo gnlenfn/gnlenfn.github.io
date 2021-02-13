@@ -2,14 +2,14 @@
 name: John Doe
 username: johndoe
 bio: "Hi I a John, a Web Developer."
-#site: http://johndoe.com
+site: http://johndoe.com
 avatar: johndoe.png
 email: gnlenfn@gmail.com
 social:
     - title: "github"
       url: "https://github.com/gnlenfn"
     - title: "linkedin"
-      url: "https://www.linkedin.com/in/johndoe"
+      url: "https://www.linkedin.com/in/hong-in-yun-298b2b166"
     #- title: "youtube"
     #  url: "https://www.youtube.com/channel/UCSfLBFFfNU9r6ihfei6VeJw"
     #- title: "facebook"
