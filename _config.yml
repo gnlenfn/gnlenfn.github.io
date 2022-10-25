@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "No Name"
+  name             : "On the Record"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "게으른 사람 개과천선 하기"
+  bio              : "기록, 공유, 성장"
   location         : "South Korea"
   email            : "gnlenfn@gmail.com"
   links:
