@@ -5,5 +5,45 @@ search: false
 
 @charset "utf-8";
 
+$small: 576px;            // default 600px
+$medium: 720px;           // default 768px
+$medium-wide: $medium;    // default 900px
+$large: 992px;            // default 1024px
+$x-large: 1340px;         // default 1280px
+$max-width: 1600px;       // default $x-large
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+html {
+    font-size: 16px; // change to whatever
+    
+    @include breakpoint($medium) {
+        font-size: 18px; // change to whatever
+    }
+    
+    @include breakpoint($large) {
+        font-size: 18px; // change to whatever
+    }
+    
+    @include breakpoint($x-large) {
+        font-size: 18px; // change to whatever
+    }
+}
+
+a {
+    text-decoration: none;                // 추가된 코드입니다.
+  
+    &:focus {
+      @extend %tab-focus;
+    }
+  
+    &:visited {
+      color: $link-color-visited;
+    }
+  
+    &:hover {
+      color: $link-color-hover;
+      outline: 0;
+    }
+  }
