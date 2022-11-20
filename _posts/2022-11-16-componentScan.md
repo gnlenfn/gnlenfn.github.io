@@ -1,3 +1,18 @@
+---
+title: "컴포넌트 스캔"
+excerpt: ""
+
+categories:
+  - "Web"
+tags:
+  - ["Spring"]
+
+date_created: 2022-11-02T23:32:22+09:00
+last_modified_at: 2022-11-02T23:32:22+09:00
+toc: true
+toc_sticky: true
+---
+
 # 컴포넌트 스캔
 
 지금까지는 개발자가 직접 설정 파일을 작성하고 `@Bean`을 등록하는 과정을 거쳤다. 하지만 이 역시 너무 귀찮은 과정이니 스프링이 자동으로 해주는 컴포넌트 스캔에 대해 알아보자

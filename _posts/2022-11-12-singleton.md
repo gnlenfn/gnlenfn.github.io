@@ -1,3 +1,18 @@
+---
+title: "싱글톤 컨테이너"
+excerpt: ""
+
+categories:
+  - "Web"
+tags:
+  - ["Spring"]
+
+date_created: 2022-11-02T23:32:22+09:00
+last_modified_at: 2022-11-02T23:32:22+09:00
+toc: true
+toc_sticky: true
+---
+
 # 스프링 컨테이너와 스프링 빈
 
 앞서서 `ApplicationContext`를 생성하여 DI를 사용했다. 이때 `ApplicationContext`가 바로 스프링 컨테이너이다. 스프링 컨테이너는 전에 만들어본 `AppConfig`처럼 애노테이션 기반의 자바 클래스로 만들 수도 있고, XML 기반으로 만들 수도 있다. 최근에는 대부분 자바 클래스로 만든다고 한다.
