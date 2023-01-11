@@ -7,7 +7,7 @@ categories:
 tags:
   - ["spring", "session", "api request"]
 
-date_created: 2022-01-0T22:20:00+09:00
+date_created: 2022-01-09T22:20:00+09:00
 last_modified_at: 2023-01-10T20:01:06+09:00
 toc: true
 toc_sticky: true
