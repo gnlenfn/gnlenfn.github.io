@@ -1,5 +1,5 @@
 ---
-title: "Data Enginner"
+title: "Data Enginnering"
 permalink: /categories/de/
 layout: category
 author_profile: true
