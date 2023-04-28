@@ -9,6 +9,8 @@ tags:
 
 date_created: 2023-04-28T18:27:35+09:00
 last_modified_at: 2023-04-28T18:27:59+09:00
+toc: true
+toc_sticky: true
 ---
 
 ## 데이터 저장 포맷
@@ -48,3 +50,9 @@ Row-oriented : 쓰기에 최적화, 계속해서 쓰는경우 (streaming)에 적
 
 > Nested Columns  
 데이터프레임 구성이 복잡하여 컬럼아래 또 컬럼이 있는 경우라면 nested column을 지원해야 한다. csv는 불가능하지만 json은 가능하다. Parquet와 Avro는 역시 지원한다. 
+
+---
+## 참고 자료
+[Beginners Guide to Columnar File Formats in Spark and Hadoop](https://blog.matthewrathbone.com/2019/11/21/guide-to-columnar-file-formats.html)  
+[Demystify Hadoop Data Formats: Avro, ORC, and Parquet](https://medium.com/data-engineer-things/demystify-hadoop-data-formats-avro-orc-and-parquet-e428709cf3bb)  
+[AVRO vs Parquet — what to use?](https://medium.com/data-engineer-things/demystify-hadoop-data-formats-avro-orc-and-parquet-e428709cf3bb)
