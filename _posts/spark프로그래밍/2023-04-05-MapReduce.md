@@ -9,6 +9,8 @@ tags:
 
 date_created: 2023-04-05T22:27:35+09:00
 last_modified_at: 2023-04-05T22:27:59+09:00
+toc: true
+toc_sticky: true
 ---
 
 # Hadoop 1.0 & Hadoop 2.0

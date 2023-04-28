@@ -9,6 +9,8 @@ tags:
 
 date_created: 2023-04-23T18:27:35+09:00
 last_modified_at: 2023-04-23T18:27:59+09:00
+toc: true
+toc_sticky: true
 ---
 
 스파크 데이토 구조 중 pyspark는 DataFrame을 주로 사용한다고 했었다. 그리고 DataFrame을 사용해 데이터를 다루는 실습도 했는데, 일부 경우는 오히려 그냥 SQL을 사용하는 것이 더 간단하고 직관적이었다.
