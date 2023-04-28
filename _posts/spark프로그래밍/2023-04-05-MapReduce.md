@@ -9,11 +9,12 @@ tags:
 
 date_created: 2023-04-05T22:27:35+09:00
 last_modified_at: 2023-04-05T22:27:59+09:00
+
 toc: true
 toc_sticky: true
 ---
 
-# Hadoop 1.0 & Hadoop 2.0
+## Hadoop 1.0 & Hadoop 2.0
 > An open source software platform for __distributed storage__ and __distributed processing__ of very large data sets on computer clusters built from commodity hardware
 
 하둡은 평범한 스펙의 컴퓨터들의 클러스터를 가지고 분산 처리를 통해 대용량 데이터 처리를 지원하는 플랫폼이다. 마치 하나의 컴퓨터처럼 클러스터를 사용하는 것이다.
@@ -32,7 +33,7 @@ Resource Manager(RM)은 전체 노드를 관리하는 역할, 각 Node Manager �
 
 이때 하둡 1.0과 다르게 2.0에서 생긴 클러스터의 리소스 관리자를 yarn이라고 부른다.
 
-# MapReduce
+## MapReduce
 맵리듀스 프로그래밍은 맵과 리듀스로 이루어진 연산을 가리킨다. 맵리듀스가 다룰 수 있는 데이터 셋은 오로지 key-value 형식이며 immutable하다. 
 ![](/assets/img/spark%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/2023-04-05/MR.png)
  
@@ -50,7 +51,7 @@ Reduce의 입력은 reduce 태스크의 수나 어떤 값을 기준으로 맵이
 
 위 과정을 여러번 반복하여 원하는 결과를 얻을 수 있도록 하는 것이 맵리듀스 프로그래밍. 따라서 한번 skew가 생기면 map의 입력에도 문제가 생길 수 있음. 
 
-# MapReduce의 문제점
+## MapReduce의 문제점
 - 낮은 생산성
 프로그래밍을 통해 원하는 결과를 얻기 위해 다양한 연산들이 존재하는데, 맵리듀스는 2가지 오퍼레이션만 존재하기 때문에 유연하지 못함. 또한 데이터 분포 등의 영향을 받아 튜닝이나 최적화가 쉽지 않음
 - 배치 작업만 가능
@@ -58,7 +59,7 @@ Reduce의 입력은 reduce 태스크의 수나 어떤 값을 기준으로 맵이
 - Shuffling 후 Data Skew가 발생하기 쉬움
 이 부분은 Spark 역시 가지고 있는 문제이며 항상 고려해야 할 문제이다. 그리고 개발자가 reduce의 수를 직접 결정해야 한다는 점 역시 큰 문제가 된다. 시스템이 알아서 적절하게 reduce 수를 정해준다면 skew 발생 상황이 더 줄어들 텐데..
 
-# 대안의 등장
+## 대안의 등장
 이미 앞서 언급했듯이 yarn이 MR의 한계를 극복하기 위해 나타났고 Spark역시 그 중 하나라고 한다. 그리고 구조화된 데이터의 경우 전통의 강자 SQL이 결국 좋은 결과를 보이기 때문에 Hive나 Presto같은 프레임워크가 등장하게 된다. (사실 둘다 안써봐서 잘 모름)
 
 - Hive
